@@ -454,3 +454,122 @@ body {
             font-size: 18px;
             color: white;
         }
+
+@media screen and (max-width: 480px) {
+#hero-bar{
+    flex-direction: column;
+
+}
+    #logo-container{
+        width: 100%;
+        height: 30%;
+    }
+    #nav-bar{
+        width: 100%;
+        height: 40%;
+    }
+    #call-box{
+        width: 100%;
+        height: 30%;
+
+    }
+        #call-button{
+            font-size: 15px;
+        }
+
+
+
+#hook-header{
+    font-size: 30px;
+}
+#hook-bio{
+    font-size: 25px;
+}
+
+
+#section-two-container{
+    width: 100%;
+}
+
+
+#shop-bio-container{
+    width: 95%;
+    margin-bottom: 25px;
+    margin-left: 50px;
+}
+    #shop-bio-header{
+        font-size: 25px;
+    }
+    #shop-bio-content{
+        font-size: 13px;
+    }
+#shop-technique-container{
+    width: 100%;
+    margin-left: 50px;
+}
+    .technique-header{
+        font-size: 20px;
+    }
+    .technique-content{
+        font-size: 10px;
+    }
+
+
+#section-four-icon-box{
+    width: 100%;
+}
+#section-four-header-box{
+    width: 100%;
+}
+    #section-four-header{
+        font-size: 25px;
+    }
+#section-four-bio-box{
+    width: 100%;
+}
+    #section-four-bio{
+        font-size: 10px;
+    }
+
+
+.services-boxes{
+    width: 33.3%;
+}
+    #service-icons{
+        font-size: 20px;
+    }
+    .service-headers{
+        font-size: 15px;
+    }
+    .service-bios{
+        font-size: 12px;
+    }
+#bottom-section-top{
+    flex-direction: column;
+}
+    .bottom-boxes{
+        width: 100%;
+        height: 30%;
+    }
+    #bottom-info-box{
+        display: none;
+    }
+#schedule-header{
+    font-size: 20px;
+}
+    #hours-box{
+        width: 100%;
+        height: 60%;
+    }
+        #mon-fri, #sat-sun{
+            font-size: 12px;
+            margin-right: 20px;
+        }
+        #week-times, #weekend-times{
+            font-size: 8px;
+            margin-right: 20px;
+        }
+    #hours-box{
+        flex-direction: row;
+    }
+    }
