@@ -30,6 +30,10 @@ body {
         align-items: center;
         justify-content: center;
     }
+        #logo{
+            height: 100%;
+            width: auto;
+        }
     #nav-bar{
         width: 40%;
         height: 100%;
@@ -438,9 +442,9 @@ body {
                     font-size: 15px;
                     color: white;
                 }
-            #map-placeholder{
-                color: white;
-                font-size: 30px;
+            #map{
+                width: 100%;
+                height: 100%;
             }
     #bottom-section-bottom{
         width: 100%;
@@ -544,6 +548,14 @@ body {
     .service-bios{
         font-size: 12px;
     }
+
+
+
+
+
+#bottom-section{
+    height: 900px;
+}
 #bottom-section-top{
     flex-direction: column;
 }
@@ -552,7 +564,8 @@ body {
         height: 30%;
     }
     #bottom-info-box{
-        display: none;
+        align-items: center;
+        justify-content: center;
     }
 #schedule-header{
     font-size: 20px;
